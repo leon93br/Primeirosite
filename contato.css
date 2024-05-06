@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.kdam-thmor-pro-regular {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover {
+    color:#1db2d7;
+    text-decoration: underline;
+}
+
+#logo {
+    width: 89px;
+    height: auto;
+}
+
+.contact {
+    width: 700px;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content:s;
+
+}
+
+h2 {
+    color:#1db2d7;
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+sextion.formulario {
+    padding: 80px 4%;   
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color:#242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+}
+
+form textarea{
+    resize: none;
+    height: 140px;
+    width: 100%;
+}
+
+form .botton-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .botton-enviar input {
+    width: 120px;
+    background-color:#1db2d7;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 5px;
+}
+
+button:hover,form .botton-enviar input:hover {
+    background-color: rgb(43, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;    
+}
+
+/* PADRÃO FOOTER PAGINA */
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: "Kdam Thmor Pro", sans-serif;    
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
